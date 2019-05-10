@@ -232,7 +232,7 @@ int main() {
                     changecounter++;
                     if (changecounter < 50) {
                         if (selfreq > 1) {
-                            selfreq++;
+                            selfreq--;
                         }
                     }
                     else {
